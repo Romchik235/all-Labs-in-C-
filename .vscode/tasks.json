@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build lab1",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "lab1.cpp",
+                "-o", "lab1.exe",
+                "-std=c++17",
+                "-lgdi32",
+                "-municode"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
+
+
+
+
+
+
+
